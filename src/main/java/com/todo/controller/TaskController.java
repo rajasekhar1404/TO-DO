@@ -1,4 +1,4 @@
-package com.todo;
+package com.todo.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/app/v1")
-public class controller {
+public class TaskController {
 
     @PostMapping("")
     public ResponseEntity<String> createTask() {
