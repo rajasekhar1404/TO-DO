@@ -12,7 +12,7 @@ public class TaskController {
 
     @PostMapping("")
     public ResponseEntity<String> createTask() {
-        return new ResponseEntity<>("Task Created...", HttpStatus.CREATED);
+        return new ResponseEntity<>("Task Created...", HttpStatus.CREATED)
     }
 
 }
